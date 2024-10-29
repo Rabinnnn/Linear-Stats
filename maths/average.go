@@ -2,6 +2,7 @@ package maths
 
 import "fmt"
 
+// calculate mean
 func Average(sum float64, length float64) float64 {
 	if length <= 0 {
 		fmt.Println("Invalid length value")
